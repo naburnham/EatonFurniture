@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700,900');
+
+
+body{
+    color: #666;
+    font-family: 'Simplifica', sans-serif;
+}
+
+/* Main header */
+header {
+    color:  #004D00;
+    font-family: 'Merriweather', serif;
+    border-bottom: solid 1px rgba(0, 77, 0, 0.5);
+    margin-bottom: 15px;
+}
+
+/* Header fonts */
+h2, h4 {
+    font-family: 'Merriweather', serif;
+    color:  #004D00;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+/* Body fonts */
+a, a:hover {
+    color:  #004D00;
+    font-style: normal;
+}
+
+#main_logo {
+    width: 100%;
+    height: auto;
+}
+
+#main_img {
+    width: 100%;
+    height: 300px;
+}
+
+.jumbotron {
+    background-color: #eee;
+    padding: 0px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.card-img-top {
+    margin-top: 20px;
+}
+
+/* FOOTER */
+footer {
+    border-top: solid 1px rgba(0, 77, 0, 0.5);
+    margin-top: 15px;
+}
+
+footer, footer a, footer a:hover {
+    color: #666;
+    padding-top: 10px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+}
+
+footer nav li {
+    padding: 0;
+    margin: 0;
+}
+
+footer .nav-link {
+    padding-left: 0;
+    margin-left: -40px;
+}
